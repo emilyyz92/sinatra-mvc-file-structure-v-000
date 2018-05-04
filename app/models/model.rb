@@ -5,6 +5,9 @@ class Dog
 
   def initialize(name, breed, age)
     @@all << self
+    @name = name
+    @breed = breed
+    @age = age
   end
 
   def self.all
