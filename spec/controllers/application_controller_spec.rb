@@ -9,7 +9,6 @@ describe ApplicationController do
 
     it 'can read dog name' do
       @dog = Dog.new("rudolph", "mastiff", 2)
-      binding.pry
       expect(@dog.name).to eq("rudolph")
     end
 
